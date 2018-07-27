@@ -115,11 +115,11 @@ public class MultiblockPage extends PageText {
             GlStateManager.enableBlend();
             GlStateManager.enableDepth();
 
-           #Minecraft.getMinecraft().fontRendererObj.setUnicodeFlag(false);
-           # if (highlighted != null) {
-           #    gui.renderToolTip(highlighted, mx, my);
-           #}
-           #RenderHelper.disableStandardItemLighting();
+           /*Minecraft.getMinecraft().fontRendererObj.setUnicodeFlag(false);
+            if (highlighted != null) {
+               gui.renderToolTip(highlighted, mx, my);
+           }
+           RenderHelper.disableStandardItemLighting();*/
             /*
             Minecraft.getMinecraft().fontRenderer.setUnicodeFlag(true);
             if(localizedText!=null&&!localizedText.isEmpty())
